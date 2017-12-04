@@ -1,0 +1,6 @@
+[build]
+  publish = "docs/"
+  command = "yarn docs:build"
+
+[context.production]
+  ROOT_PATH = "/community-project-boilerplate/"
