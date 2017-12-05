@@ -8,7 +8,7 @@
     "docs:update": "ROOT_PATH=/community-project-boilerplate/ yarn docs:build && doctoc --maxlevel 2 README.md CONTRIBUTING.md",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "yarn lint && yarn docs:build"
+    "test": "yarn lint && yarn docs:build && git checkout docs && git clean -f docs"
   },
   "devDependencies": {
     "babel-eslint": "8.0.3",
