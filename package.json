@@ -27,15 +27,13 @@
   "renovate": {
     "extends": [
       "config:application",
-      "schedule:weekends"
-    ],
-    "timezone": "Europe/Paris",
-    "semanticCommits": true,
-    "rebaseStalePrs": true,
-    "minor": {
-      "automerge": true,
-      "automergeType": "branch-push"
-    }
+      "schedule:weekends",
+      ":automergeMinor",
+      ":automergeBranchPush",
+      ":semanticCommits",
+      ":rebaseStalePrs",
+      ":timezone(Europe/Paris)"
+    ]
   },
   "workspaces": [
     "src/*"
