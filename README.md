@@ -9,6 +9,7 @@
 - [Initial setup](#initial-setup)
 - [Publish docs to https://community.algolia.com/my-project](#publish-docs-to-httpscommunityalgoliacommy-project)
 - [Local development](#local-development)
+- [Test build](#test-build)
 - [Changes to be done before going live](#changes-to-be-done-before-going-live)
 - [Project structure](#project-structure)
 - [Assets and links references](#assets-and-links-references)
