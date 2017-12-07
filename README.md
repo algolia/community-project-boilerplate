@@ -66,6 +66,15 @@ yarn start
 
 Go to https://localhost:3000. There should be auto reload for almost everything, but when it fails just restart the server.
 
+## Test build
+
+This will run the build of the website and serve it. Useful when you are modifying production middlewares and want to ensure
+the resulting website will be working. Like when adding CSS minification.
+
+```sh
+yarn docs:test-build
+```
+
 ## Changes to be done before going live
 
 - Rename any folder and replace any occurence of `community-project-boilerplate` to `my-project`.
