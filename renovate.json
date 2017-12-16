@@ -1,1 +1,6 @@
-
+{
+  "extends": [
+    "config:js-app",
+    "algolia"
+  ]
+}
