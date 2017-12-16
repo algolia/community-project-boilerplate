@@ -13,6 +13,7 @@
 - [Changes to be done before going live](#changes-to-be-done-before-going-live)
 - [Project structure](#project-structure)
 - [Assets and links references](#assets-and-links-references)
+- [Deploy previews](#deploy-previews)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -99,6 +100,26 @@ If your image is in `assets/images/image.png` then you can reference it in your 
 Same for linking to a particular page, if you are in `index.html` (or `index.md`), to link to `about/team.html` just do this: `<a href="about/team.html">team</a>`.
 
 For ressources inside CSS files, always use relative paths from the CSS file itself like `background-image: url("../assets/image/image.png")`);
+
+## Deploy previews
+
+![deploy preview example image](./deploy-preview-example.png).
+
+If you want to have deploy previews, which are live deployments of your website
+from pull requests submitted to this repository, please:
+- Go to https://www.netlify.com/
+- Login with GitHub
+- Add "New site from Git"
+- Leave everything by default
+- Go to your Netlify project, click on Deploys > Notifications
+- Open a new tab Login to GitHub on a bot like account (algobot for Algolia)
+- Return to Netlify, add a notification as a GitHub comment
+- Choose "Deploy succeeded"
+- Click on "generate access token in GitHub"
+
+Now the bot you logged in will generate a dedicated token for this project and will be the author of the comments when something new is deployed.
+
+You can now logout from GitHub and login again with your real account.
 
 ## Contributing
 
