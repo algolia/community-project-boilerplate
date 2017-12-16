@@ -27,12 +27,6 @@
     "node": "^9.3.0",
     "yarn": "^1.3.2"
   },
-  "renovate": {
-    "extends": [
-      "config:js-app",
-      "algolia"
-    ]
-  },
   "workspaces": [
     "src/*"
   ],
