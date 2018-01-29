@@ -32,9 +32,9 @@ To run this project, you will need:
 ## Initial setup
 
 ```sh
-nvm use
 git clone git@github.com:algolia/community-project-boilerplate.git my-project
 cd my-project
+nvm use
 rm -rf .git
 git init
 git remote add origin git@github.com:algolia/my-project.git
