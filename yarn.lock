@@ -870,7 +870,7 @@ async@2.1.4:
   dependencies:
     lodash "^4.14.0"
 
-async@2.6.0, async@^2.1.2, async@^2.1.4, async@^2.1.5:
+async@2.6.0, async@^2.1.2, async@^2.1.5, async@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
@@ -5156,12 +5156,12 @@ metalsmith-layouts@1.8.1:
     lodash.omit "^4.0.2"
     multimatch "^2.0.0"
 
-metalsmith-sass@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/metalsmith-sass/-/metalsmith-sass-1.4.0.tgz#589f95f3de6bb67b09e85fab5a63cc594428ee65"
+metalsmith-sass@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/metalsmith-sass/-/metalsmith-sass-1.5.1.tgz#dde2c8d408ccba038935a49d584adce37dcc566c"
   dependencies:
-    async "^2.1.4"
-    node-sass "^4.2.0"
+    async "^2.6.0"
+    node-sass "^4.7.2"
 
 metalsmith@2.3.0:
   version "2.3.0"
@@ -5502,7 +5502,7 @@ node-pre-gyp@^0.6.39:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@4.7.2, node-sass@^4.2.0, node-sass@^4.5.0:
+node-sass@4.7.2, node-sass@^4.5.0, node-sass@^4.7.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.7.2.tgz#9366778ba1469eb01438a9e8592f4262bcb6794e"
   dependencies:
