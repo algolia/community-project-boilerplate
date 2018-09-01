@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "7.0.0-rc.3",
-    "@babel/preset-env": "7.0.0-rc.3",
-    "@babel/preset-react": "7.0.0-rc.3",
+    "@babel/core": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-react": "7.0.0",
     "algolia-aerial": "1.5.3",
     "algolia-frontend-components": "0.0.35",
     "async": "2.6.1",
