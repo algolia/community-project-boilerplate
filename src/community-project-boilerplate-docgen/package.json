@@ -8,7 +8,7 @@
     "@babel/preset-react": "7.0.0",
     "algolia-aerial": "1.5.3",
     "algolia-frontend-components": "0.0.35",
-    "async": "2.6.1",
+    "async": "2.6.2",
     "autoprefixer": "7.2.6",
     "babel-loader": "8.0.5",
     "babel-polyfill": "6.26.0",
