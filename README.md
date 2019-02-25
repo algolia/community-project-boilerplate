@@ -1,5 +1,7 @@
 # community-project-boilerplate
 
+> Note: this boilerplate is outdated, and should be reviewed before used. There are critical vulnerabilites in the dependencies used for building the site.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
