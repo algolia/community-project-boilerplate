@@ -9,7 +9,7 @@
     "algolia-aerial": "1.5.3",
     "algolia-frontend-components": "0.0.35",
     "async": "2.6.2",
-    "autoprefixer": "7.2.6",
+    "autoprefixer": "9.4.10",
     "babel-loader": "8.0.5",
     "babel-polyfill": "6.26.0",
     "browser-sync": "2.26.3",
